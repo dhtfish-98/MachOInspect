@@ -75,7 +75,7 @@ ASan/UBSan runs are recorded in [Verification](docs/VERIFICATION.md).
 
 The earlier 456-check Release suite, installed-library consumer and owned-signing
 walkthrough passed on GitHub for
-[`c38a40e`](https://github.com/dhtfish988/MachOInspect/actions/runs/36098199519).
+[`c38a40e`](https://github.com/dhtfish-98/MachOInspect/actions/runs/36098199519).
 That exact run predates the latest optional-resource and unreadable-scan fixes;
 their local results are recorded separately in
 [the re-audit evidence](validation/re-audit-2026-09-25/result.json).

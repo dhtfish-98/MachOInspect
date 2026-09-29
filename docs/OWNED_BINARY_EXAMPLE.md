@@ -78,7 +78,7 @@ normalized to `<fixture>/control` or `<fixture>/review`. No existing application
 private repository source or third-party binary is included. The example's
 source and plists are new fixture material for this repository.
 
-The existing [macOS integration test](https://github.com/dhtfish988/MachOInspect/blob/e3f8c78cfe0b096580c21da00f22bb28a3502d11/tests/integration/macos_contract.cpp)
+The existing [macOS integration test](https://github.com/dhtfish-98/MachOInspect/blob/e3f8c78cfe0b096580c21da00f22bb28a3502d11/tests/integration/macos_contract.cpp)
 also builds an app bundle, changes its resources, and checks both the inspector
 findings and `codesign` rejection. This walkthrough focuses on signing metadata
 and declared entitlements; it does not authenticate code pages itself.

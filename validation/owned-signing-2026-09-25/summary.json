@@ -2,7 +2,7 @@
   "recorded_at": "2026-09-25T05:11:20Z",
   "validation_kind": "local owned-fixture example; separate from earlier native matrices",
   "implementation_base_commit": "e3f8c78cfe0b096580c21da00f22bb28a3502d11",
-  "hosted_run_for_base_commit": "https://github.com/dhtfish988/MachOInspect/actions/runs/36086103940",
+  "hosted_run_for_base_commit": "https://github.com/dhtfish-98/MachOInspect/actions/runs/36086103940",
   "hosted_scope_note": "The linked hosted run predates these example and documentation changes. This record does not claim they passed hosted CI.",
   "host": {
     "os": "macOS",

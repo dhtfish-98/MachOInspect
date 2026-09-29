@@ -73,6 +73,6 @@
       "sha256": "4e8bf45ff56691d7d7d6c262b8ce9715c293bd8d8142dbdace84eab92da8418e"
     }
   },
-  "hosted_ci_url": "https://github.com/dhtfish988/MachOInspect/actions/workflows/verify.yml",
+  "hosted_ci_url": "https://github.com/dhtfish-98/MachOInspect/actions/workflows/verify.yml",
   "hosted_ci_note": "Check the Actions result for the exact Git commit; local results do not imply a hosted run passed."
 }

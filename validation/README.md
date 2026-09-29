@@ -43,11 +43,11 @@ were exercised. No speed advantage was established. See `docs/VERIFICATION.md`.
 ## Current and earlier review evidence
 
 - [Current re-audit result](re-audit-2026-09-25/result.json) and [test transcripts](re-audit-2026-09-25/) cover the optional-resource and recursive-read fixes.
-- [Successful hosted run for c38a40e](https://github.com/dhtfish988/MachOInspect/actions/runs/36098199519) covers that exact revision's earlier 456-check Release suite, installed-library consumer and owned-signing example. It predates the current re-audit fixes.
+- [Successful hosted run for c38a40e](https://github.com/dhtfish-98/MachOInspect/actions/runs/36098199519) covers that exact revision's earlier 456-check Release suite, installed-library consumer and owned-signing example. It predates the current re-audit fixes.
 - [Owned-binary example](../docs/OWNED_BINARY_EXAMPLE.md) and [local paired reports](owned-signing-2026-09-25/) show a fresh compiler/codesign/inspector comparison on 2026-09-25. This example-only change did not rerun the full matrices.
 - [Earlier machine-readable review result](current-review.json) and [its sanitized test transcripts](review-2026-09-25/).
 - [CMake 3.24 preset compatibility result](current-review-build.json).
-- [GitHub macOS verification](https://github.com/dhtfish988/MachOInspect/actions/workflows/verify.yml) builds Release, runs the tests, installs the package and exercises an independent consumer. Read the result for the exact commit; a workflow file alone is not a successful run.
+- [GitHub macOS verification](https://github.com/dhtfish-98/MachOInspect/actions/workflows/verify.yml) builds Release, runs the tests, installs the package and exercises an independent consumer. Read the result for the exact commit; a workflow file alone is not a successful run.
 
 The original 1.0.0 archives remain historical artifacts. Use the current Git commit
 for these fixes. This review did not repeat earlier fuzz, system-corpus or IDA runs.

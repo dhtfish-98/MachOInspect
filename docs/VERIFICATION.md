@@ -4,7 +4,7 @@ Evidence filenames and workspace-relative paths below refer to local validation 
 
 ## Hosted evidence and owned-binary example
 
-GitHub [run 36098199519](https://github.com/dhtfish988/MachOInspect/actions/runs/36098199519)
+GitHub [run 36098199519](https://github.com/dhtfish-98/MachOInspect/actions/runs/36098199519)
 completed successfully for commit `c38a40e98a4d533c5a7964077c2641bc0b0e232c`.
 It ran the earlier 456-check Release suite, an independently linked installed-library
 consumer and the owned-signing example. This is evidence for that exact revision;
