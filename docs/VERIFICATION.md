@@ -2,6 +2,10 @@
 
 Evidence filenames and workspace-relative paths below refer to local validation records. See `../validation/README.md` for the published summary; raw local logs are not included.
 
+The current local result is **474 checks** in each rebuilt Debug, Release and
+ASan/UBSan suite. The hosted run below is the earlier 456-check revision at
+`c38a40e`. These are different commits and different totals.
+
 ## Hosted evidence and owned-binary example
 
 GitHub [run 36098199519](https://github.com/dhtfish-98/MachOInspect/actions/runs/36098199519)

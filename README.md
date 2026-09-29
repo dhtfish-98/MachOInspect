@@ -68,17 +68,16 @@ and link `MachOInspect::macho_inspect`. An independent consumer is provided in
 
 ## Verification
 
-The current local macOS validation contains **474 checks across five native C++ test
-executables**: parser contracts, resource rules, inspection rules, malformed-input
-boundaries and real compiler/codesign/CLI integration. Debug, Release and
-ASan/UBSan runs are recorded in [Verification](docs/VERIFICATION.md).
+The current local macOS result is **474 checks** in each of Debug, Release and
+ASan/UBSan, across five native test programs: parser contracts, resource rules,
+inspection rules, malformed-input boundaries and compiler/codesign/CLI integration.
+That result is the optional-resource and unreadable-scan re-audit in
+[Verification](docs/VERIFICATION.md). It was not the GitHub run below.
 
 The earlier 456-check Release suite, installed-library consumer and owned-signing
 walkthrough passed on GitHub for
 [`c38a40e`](https://github.com/dhtfish-98/MachOInspect/actions/runs/36098199519).
-That exact run predates the latest optional-resource and unreadable-scan fixes;
-their local results are recorded separately in
-[the re-audit evidence](validation/re-audit-2026-09-25/result.json).
+That revision predates the 474-check fixes.
 
 The C++ verification tool performs a fresh comparison with Apple's tools:
 
@@ -86,9 +85,10 @@ The C++ verification tool performs a fresh comparison with Apple's tools:
 build/release/inspect-verify-system
 ```
 
-The recorded corpus contains 1,157 Mach-O files and 2,301 architecture slices.
-All 2,301 signing-metadata comparisons and 883 entitlement comparisons agreed.
-These totals describe one macOS installation and are not a fixed test target.
+An earlier comparison on one macOS installation covered 1,157 Mach-O files and
+2,301 architecture slices. All 2,301 signing-metadata comparisons and 883
+entitlement comparisons agreed. That corpus is separate from the 474-check
+re-audit and is not a fixed test target.
 
 Linux parsing and inspection paths are designed to build with the same C++
 dependencies, but **Linux execution is not validated in this delivery**. The macOS
