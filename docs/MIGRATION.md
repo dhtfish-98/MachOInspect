@@ -1,12 +1,11 @@
-# Migration from machoaudit 0.2.0
+# Command migration
 
-The baseline is `dcd69fcc7475767540a2b496c6415e9adaa83b56`. Keep the Python version
-available when migrating an existing consumer. The new tool and library have a
-new API and report schema; they do not impersonate the old Python package.
+The new tool and library have a new API and report schema. They do not impersonate
+an older Python package.
 
 | Previous surface | New surface |
 |---|---|
-| `machoaudit PATH` | `macho-inspect PATH` |
+| previous CLI on a path | `macho-inspect PATH` |
 | Python `audit_bytes` / `audit_file` / `audit_bundle` | C++ `InspectionSession::inspect_bytes` / `inspect_file` / `inspect_path` |
 | `FileReport`, `SliceReport`, `Finding` | `InspectionResult`, `ImageResult`, `Observation` |
 | root `files` / file `slices` | root `inputs` / input `images` |

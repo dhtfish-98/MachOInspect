@@ -95,13 +95,9 @@ dependencies, but **Linux execution is not validated in this delivery**. The mac
 integration test explicitly skips there. A portable build is not established by
 the existence of CMake files.
 
-## Scope and provenance
+## Scope
 
-This is a native rewrite of the MIT-licensed machoaudit baseline, commit
-`dcd69fcc7475767540a2b496c6415e9adaa83b56`. Its architecture,
-implementation, public API, CLI error contract and tests were redesigned. The
-baseline's attribution is retained in [LICENSE](LICENSE); dependency notices are
-in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+Dependency notices are in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
 
 The scope includes thin/fat Mach-O, XML/binary plist and Apple entitlement DER,
 code-signing metadata, declared hardening and macOS/iOS-style app resource seals.

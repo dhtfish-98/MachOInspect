@@ -32,9 +32,7 @@ recorded by subsequent Git commits; the original manifest is historical and does
 not describe the current checkout. The initial Git commit records
 publication; it does not manufacture a prior development history.
 
-The functional baseline is `machoaudit`. Its exact commit and retained attribution
-are documented in the project notices. That historical repository may be private;
-licenses and source provenance remain available here.
+
 
 Final system corpus: 1,157 files / 2,301 slices; zero metadata comparison issues.
 883 entitlement comparisons agreed. Installed CLI and a separate library consumer

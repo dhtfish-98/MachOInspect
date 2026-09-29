@@ -84,10 +84,9 @@ Date: 2026-09-23. Host: macOS 26.7 (25G229), arm64. Product builds use Apple cla
 21.0.0, CMake 4.3.1 and Ninja 1.13.2. The ASan/UBSan and libFuzzer build uses LLVM
 23.1.1 because the installed Apple toolchain has no libFuzzer runtime archive.
 
-The evidence directory in this workspace is `../evidence/machoaudit/`. It contains
-build/test logs, corpus comparison JSON, the baseline inventory and final artifact
-metadata. Claims in this initial-validation section concern the local runs on
-2026-09-23. Later hosted validation is identified separately above.
+The raw logs for this initial validation are outside this repository. Claims in
+this section concern the local runs on 2026-09-23. Later hosted validation is
+identified separately above.
 
 ## Recorded checks
 

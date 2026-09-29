@@ -1,10 +1,5 @@
 # Sources and dependencies
 
-MachOInspect is a C++ rewrite using machoaudit commit
-`dcd69fcc7475767540a2b496c6415e9adaa83b56` as a functional reference. That project's
-MIT copyright notice is retained in `LICENSE`. The rewrite retains the scope of
-its structural inspection and documents intentional behavior changes.
-
 | Dependency | Validated version | License | Local license copy |
 |---|---|---|---|
 | nlohmann/json | 3.12.0 | MIT | `licenses/nlohmann-json-MIT.txt` |
