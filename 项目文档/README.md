@@ -1,3 +1,5 @@
+> 目录已整理：文档在「项目文档」，构建、缓存与暂存输入在「Build」。从仓库根目录运行 `python3 构建.py --build`；如需使用本文原有源码命令，先运行 `python3 构建.py --stage --ci`，再进入 `Build/源码`。暂存会恢复原输入路径。现有版本和历史验证记录按各自提交理解。
+
 # MachOInspect
 
 A C++20 library and command-line tool for inspecting Mach-O signing metadata,
@@ -72,7 +74,7 @@ The current local macOS result is **474 checks** in each of Debug, Release and
 ASan/UBSan, across five native test programs: parser contracts, resource rules,
 inspection rules, malformed-input boundaries and compiler/codesign/CLI integration.
 That result is the optional-resource and unreadable-scan re-audit in
-[Verification](docs/VERIFICATION.md). It was not the GitHub run below.
+[Verification](<docs/VERIFICATION.md>). It was not the GitHub run below.
 
 The earlier 456-check Release suite, installed-library consumer and owned-signing
 walkthrough passed on GitHub for
@@ -97,7 +99,7 @@ the existence of CMake files.
 
 ## Scope
 
-Dependency notices are in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+Dependency notices are in [THIRD_PARTY_NOTICES.md](<THIRD_PARTY_NOTICES.md>).
 
 The scope includes thin/fat Mach-O, XML/binary plist and Apple entitlement DER,
 code-signing metadata, declared hardening and macOS/iOS-style app resource seals.
@@ -106,11 +108,11 @@ requirements evaluation are outside this version. Resource-rule matching is a
 documented approximation, not Apple's complete sealing implementation. Inspect a
 stable copy: path containment and change checks are not a transactional snapshot.
 
-- [Architecture](docs/ARCHITECTURE.md)
-- [Command line](docs/CLI.md)
-- [Report format](docs/FORMAT.md)
-- [Migration and intentional differences](docs/MIGRATION.md)
-- [Verification and current limits](docs/VERIFICATION.md)
-- [Baseline scenario coverage](docs/BASELINE_COVERAGE.md)
+- [Architecture](<docs/ARCHITECTURE.md>)
+- [Command line](<docs/CLI.md>)
+- [Report format](<docs/FORMAT.md>)
+- [Migration and intentional differences](<docs/MIGRATION.md>)
+- [Verification and current limits](<docs/VERIFICATION.md>)
+- [Baseline scenario coverage](<docs/BASELINE_COVERAGE.md>)
 
-Local validation and publication scope: [validation/README.md](validation/README.md).
+Local validation and publication scope: [validation/README.md](<validation/README.md>).

@@ -64,6 +64,6 @@ install(DIRECTORY include/ DESTINATION include)
 install(EXPORT MachOInspectTargets NAMESPACE MachOInspect:: DESTINATION lib/cmake/MachOInspect)
 install(FILES ${CMAKE_CURRENT_BINARY_DIR}/MachOInspectConfig.cmake
   ${CMAKE_CURRENT_BINARY_DIR}/MachOInspectConfigVersion.cmake DESTINATION lib/cmake/MachOInspect)
-install(FILES README.md LICENSE THIRD_PARTY_NOTICES.md dependencies.lock.json
+install(FILES 项目文档/README.md 项目文档/LICENSE 项目文档/THIRD_PARTY_NOTICES.md dependencies.lock.json
   DESTINATION share/doc/MachOInspect)
-install(DIRECTORY docs licenses validation examples DESTINATION share/doc/MachOInspect)
+install(DIRECTORY 项目文档/docs 项目文档/licenses 项目文档/validation examples DESTINATION share/doc/MachOInspect)

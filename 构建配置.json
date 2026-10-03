@@ -1,0 +1,197 @@
+{
+  "schema": "project-build-layout.v1",
+  "project": "MachOInspect",
+  "author": "dhtfish98",
+  "kind": "cmake",
+  "base_public_commit": "49b299baaca8e21b95e8710fe60d45c005e94e3b",
+  "restored_inputs": [
+    {
+      "original": "LICENSE",
+      "stored": "项目文档/LICENSE",
+      "sha256": "8e6076dc7cde7d9eee333f9f703c59079b56475010c9b847b99a94288c2551d6"
+    },
+    {
+      "original": "README.md",
+      "stored": "项目文档/README.md",
+      "sha256": "83e8678959cd4e8471207059f6b45b43aca1769b912784bff5e74c254d587606"
+    },
+    {
+      "original": "THIRD_PARTY_NOTICES.md",
+      "stored": "项目文档/THIRD_PARTY_NOTICES.md",
+      "sha256": "967b6bbaffc52b4987fe69b29b62cdbce3b87499266d61b9eff992db3a8455ab"
+    },
+    {
+      "original": "docs/ARCHITECTURE.md",
+      "stored": "项目文档/docs/ARCHITECTURE.md",
+      "sha256": "13980dbdf3ce88ba44c612702fcd34ec30bf4010ee989fb03ad59121a56ef66e"
+    },
+    {
+      "original": "docs/BASELINE_COVERAGE.md",
+      "stored": "项目文档/docs/BASELINE_COVERAGE.md",
+      "sha256": "23da1d987b328ce9c382830f6d841a0e2c840419fd49f9da813d373e8b00f156"
+    },
+    {
+      "original": "docs/CLI.md",
+      "stored": "项目文档/docs/CLI.md",
+      "sha256": "a2a98d1605ad9f89e4ea1e9cc4d1f44caa93bbc058671ab4ef71e6c00dfac741"
+    },
+    {
+      "original": "docs/FORMAT.md",
+      "stored": "项目文档/docs/FORMAT.md",
+      "sha256": "c83bcb4fae57ad7549a263d600413be439a0a7e99868af7456808796c451b8df"
+    },
+    {
+      "original": "docs/MIGRATION.md",
+      "stored": "项目文档/docs/MIGRATION.md",
+      "sha256": "ed42e7189d4919b305907e31e8944b3e2d39f5f4f1bf7a75b60a6baa2b2fcfcf"
+    },
+    {
+      "original": "docs/OWNED_BINARY_EXAMPLE.md",
+      "stored": "项目文档/docs/OWNED_BINARY_EXAMPLE.md",
+      "sha256": "a297dc9dfd74cca704ba7e0796a161250de9617c43cd17588e37c831b807df59"
+    },
+    {
+      "original": "docs/VERIFICATION.md",
+      "stored": "项目文档/docs/VERIFICATION.md",
+      "sha256": "f46093dc94d14da420269b3d8a8ad48eb4f3376991f6cd12a410ca732fb34e06"
+    },
+    {
+      "original": "licenses/OpenSSL-Apache-2.0.txt",
+      "stored": "项目文档/licenses/OpenSSL-Apache-2.0.txt",
+      "sha256": "7d5450cb2d142651b8afa315b5f238efc805dad827d91ba367d8516bc9d49e7a"
+    },
+    {
+      "original": "licenses/PCRE2-LICENCE.md",
+      "stored": "项目文档/licenses/PCRE2-LICENCE.md",
+      "sha256": "197d8a73ffee0d6b09adba2f9c677b5f5aede24edf89258a68e48248d010d811"
+    },
+    {
+      "original": "licenses/libplist-GPL-2.txt",
+      "stored": "项目文档/licenses/libplist-GPL-2.txt",
+      "sha256": "7619c753cac95d4740220223bde48a032606fcaccde5e546f9bc444c81ab356d"
+    },
+    {
+      "original": "licenses/libplist-LGPL-2.1.txt",
+      "stored": "项目文档/licenses/libplist-LGPL-2.1.txt",
+      "sha256": "e237fa56668030e928551ddd60f05df5fe957f75eab874bbd017e085ed722e7c"
+    },
+    {
+      "original": "licenses/nlohmann-json-MIT.txt",
+      "stored": "项目文档/licenses/nlohmann-json-MIT.txt",
+      "sha256": "46a65cffd1ea955132d95a8dd921640714a8d6b537d2e4e482d31145ae95b603"
+    },
+    {
+      "original": "validation/README.md",
+      "stored": "项目文档/validation/README.md",
+      "sha256": "48b3e8c3daa8cc1b0405c2efb68e147ac9446acb9af990a4b08cde7e9b5231bb"
+    },
+    {
+      "original": "validation/current-review-build.json",
+      "stored": "项目文档/validation/current-review-build.json",
+      "sha256": "9eff8ffcb31c04e704afaa7c7af2c1be536c1e33e6d3ba21c559f37260265d66"
+    },
+    {
+      "original": "validation/current-review.json",
+      "stored": "项目文档/validation/current-review.json",
+      "sha256": "3504aca596ee544b7a10654cdbe8ae53537adfc182941bf92bfb61e17967f189"
+    },
+    {
+      "original": "validation/local-source-manifest.json",
+      "stored": "项目文档/validation/local-source-manifest.json",
+      "sha256": "58348803c18fad0b5e096dcbf596c62b63672584a61295a7e801fda583a3d2b1"
+    },
+    {
+      "original": "validation/owned-signing-2026-09-25/comparison.json",
+      "stored": "项目文档/validation/owned-signing-2026-09-25/comparison.json",
+      "sha256": "e08725c64491e742c75d6459bb36fc6347700974d846f154de02a783b28702ec"
+    },
+    {
+      "original": "validation/owned-signing-2026-09-25/control-codesign.txt",
+      "stored": "项目文档/validation/owned-signing-2026-09-25/control-codesign.txt",
+      "sha256": "a181fa1d5b8a8a31398c3da0801cb5cba1a8d4150c47623ef57907ac9727315e"
+    },
+    {
+      "original": "validation/owned-signing-2026-09-25/control-entitlements.plist",
+      "stored": "项目文档/validation/owned-signing-2026-09-25/control-entitlements.plist",
+      "sha256": "1d9a6a1ae5f4706578d3fcfb99601072cb7ce02c721232d4cdfd53abb58ce466"
+    },
+    {
+      "original": "validation/owned-signing-2026-09-25/control-inspection.txt",
+      "stored": "项目文档/validation/owned-signing-2026-09-25/control-inspection.txt",
+      "sha256": "4f41adadbe0b7f66dd36e601c4f10bbdd89151d238c5bce96d136a0ac1ae6591"
+    },
+    {
+      "original": "validation/owned-signing-2026-09-25/exits.tsv",
+      "stored": "项目文档/validation/owned-signing-2026-09-25/exits.tsv",
+      "sha256": "8b3dbfe07eeb88e95e1b63888dcdfc4c4f1170287ca8f0d62e25530e8e5c4dac"
+    },
+    {
+      "original": "validation/owned-signing-2026-09-25/review-codesign.txt",
+      "stored": "项目文档/validation/owned-signing-2026-09-25/review-codesign.txt",
+      "sha256": "9c53717a942abb04a6861fffa462a042387a9e3e148eed304ac9a8ebcd74b08c"
+    },
+    {
+      "original": "validation/owned-signing-2026-09-25/review-entitlements.plist",
+      "stored": "项目文档/validation/owned-signing-2026-09-25/review-entitlements.plist",
+      "sha256": "a81990b5b1651349b3ebebe2a21bee92be7bbb0d54497b648ba3c51da1437ec2"
+    },
+    {
+      "original": "validation/owned-signing-2026-09-25/review-inspection.txt",
+      "stored": "项目文档/validation/owned-signing-2026-09-25/review-inspection.txt",
+      "sha256": "1f4b5edf52eea20327e34c1165b60f6d39cc264ca5ed3c09228c06c321143d24"
+    },
+    {
+      "original": "validation/owned-signing-2026-09-25/summary.json",
+      "stored": "项目文档/validation/owned-signing-2026-09-25/summary.json",
+      "sha256": "b6891dcc216e45463ffe35ad4fc39b8c2152cd1cc16f8b3d4ea9d62424c556bf"
+    },
+    {
+      "original": "validation/re-audit-2026-09-25/optional-regressions-before.txt",
+      "stored": "项目文档/validation/re-audit-2026-09-25/optional-regressions-before.txt",
+      "sha256": "4ee93eb602cfdd316f7e1b8ca0f563a36f38c550667b679d2636530b4657cd8b"
+    },
+    {
+      "original": "validation/re-audit-2026-09-25/recursive-regressions-before.txt",
+      "stored": "项目文档/validation/re-audit-2026-09-25/recursive-regressions-before.txt",
+      "sha256": "667b98f8f9e077fdc69e42dbf5113f97730a65c5f6bef0c11f92924d9d7c513d"
+    },
+    {
+      "original": "validation/re-audit-2026-09-25/result.json",
+      "stored": "项目文档/validation/re-audit-2026-09-25/result.json",
+      "sha256": "278422438f54d516d4d3c4731d7ac8f7294830af5cd25872ac7563781ac34ea9"
+    },
+    {
+      "original": "validation/re-audit-2026-09-25/tests-debug.txt",
+      "stored": "项目文档/validation/re-audit-2026-09-25/tests-debug.txt",
+      "sha256": "c8685125b2e10faf18cf240f82aab89f35dd20f71112fba0485e472b1180e33a"
+    },
+    {
+      "original": "validation/re-audit-2026-09-25/tests-release.txt",
+      "stored": "项目文档/validation/re-audit-2026-09-25/tests-release.txt",
+      "sha256": "f717da92f8898df3bbd38ba5a039adf112a0ef1e799e4f7f0d0532b09123351e"
+    },
+    {
+      "original": "validation/re-audit-2026-09-25/tests-sanitize.txt",
+      "stored": "项目文档/validation/re-audit-2026-09-25/tests-sanitize.txt",
+      "sha256": "f9271b87f7186cb080b4a628c3012166e823b4b95f24b33e177da99a135364d5"
+    },
+    {
+      "original": "validation/review-2026-09-25/tests-debug.txt",
+      "stored": "项目文档/validation/review-2026-09-25/tests-debug.txt",
+      "sha256": "af5e83e9eceff9e1b857adc993393bc17e8023744de94d587eb79d1f6e990837"
+    },
+    {
+      "original": "validation/review-2026-09-25/tests-release.txt",
+      "stored": "项目文档/validation/review-2026-09-25/tests-release.txt",
+      "sha256": "e03d3a6a5baa232973451175bfa13b32ba179c97e8be2d39f47fa806ea7fb924"
+    },
+    {
+      "original": "validation/review-2026-09-25/tests-sanitize.txt",
+      "stored": "项目文档/validation/review-2026-09-25/tests-sanitize.txt",
+      "sha256": "4e8bf45ff56691d7d7d6c262b8ce9715c293bd8d8142dbdace84eab92da8418e"
+    }
+  ],
+  "platform_entries": [
+    ".github/SECURITY.md"
+  ]
+}
