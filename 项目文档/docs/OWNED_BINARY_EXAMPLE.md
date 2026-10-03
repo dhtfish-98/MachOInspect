@@ -1,10 +1,10 @@
 # Inspect a binary you build
 
-This example compiles the small [owned fixture](../examples/owned-signing/fixture.c),
+This example compiles the small [owned fixture](../../examples/owned-signing/fixture.c),
 copies it into `control` and `review`, and signs each copy with an ad-hoc signature
 and hardened-runtime metadata. The three declared entitlements are `false` in the
-[control plist](../examples/owned-signing/control.plist) and `true` in the
-[review plist](../examples/owned-signing/review.plist). Neither binary is executed.
+[control plist](../../examples/owned-signing/control.plist) and `true` in the
+[review plist](../../examples/owned-signing/review.plist). Neither binary is executed.
 
 ## Reproduce on macOS
 
@@ -21,7 +21,7 @@ exits and retains the reports in the chosen directory. An unexpected command
 status makes the script fail; the review fixture's expected inspector status is
 `1` because `--fail-on high` is intentional.
 
-The same steps can be read directly in [run.sh](../examples/owned-signing/run.sh):
+The same steps can be read directly in [run.sh](../../examples/owned-signing/run.sh):
 
 1. Compile `fixture.c` and sign the two copies with their respective plists.
 2. Run `codesign --verify --strict` on each copy.
