@@ -23,4 +23,4 @@ The tool does not authenticate CMS, verify executable code pages, establish
 certificate trust or determine runtime OS permissions. Resource-rule handling is
 an approximation, and inspection requires a stable input copy. These documented
 limits do not exclude reports that the implementation violates its stated contract.
-See [verification scope](../docs/VERIFICATION.md).
+See [verification scope](../%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3/docs/VERIFICATION.md).
