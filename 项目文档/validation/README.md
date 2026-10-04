@@ -1,5 +1,12 @@
 # Local validation record
 
+> **Historical source snapshot — not the current Git HEAD.**
+> [`local-source-manifest.json`](local-source-manifest.json) preserves the accepted
+> local 1.0.0 delivery's paths, SHA-256 hashes and byte lengths. Later commits
+> changed source files and moved documentation. This manifest cannot verify the
+> current branch or a current source package; use the exact Git commit and its
+> matching build and CI evidence for current claims.
+
 The subsequent 2026-09-25 re-audit passed **474 checks** in each rebuilt Debug,
 Release and ASan/UBSan suite. Eighteen additional checks cover optional resource
 absence and incomplete recursive scans; eight failed before their respective
