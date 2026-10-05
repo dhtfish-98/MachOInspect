@@ -16,7 +16,7 @@ struct CommandLine {
 };
 void usage() {
   std::cout
-      << "MachOInspect 1.0.0 — structural Mach-O inspection\n"
+      << "MachOInspect 1.0.1 — structural Mach-O inspection\n"
          "Usage: macho-inspect [options] PATH...\n"
          "  -r, --recursive          Scan directories for Mach-O files\n"
          "  -j, --json               Write a versioned JSON report\n"
@@ -65,7 +65,7 @@ int main(int argc, char **argv) {
         return 0;
       }
       if (argument == "--version") {
-        std::cout << "MachOInspect 1.0.0\n";
+        std::cout << "MachOInspect 1.0.1\n";
         return 0;
       }
       if (argument == "-r" || argument == "--recursive")

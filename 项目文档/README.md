@@ -5,6 +5,11 @@
 A C++20 library and command-line tool for inspecting Mach-O signing metadata,
 declared entitlements, hardening settings and application resource seals.
 
+Version 1.0.1 is the current macOS arm64 source release. The 1.0.0 delivery
+records below are historical. Exact-commit GitHub CI checks build, tests and an
+installed consumer; no prebuilt binary is distributed. CMS authentication,
+certificate-chain validation and executable code-page verification remain open.
+
 The inspector explains what a file declares and compares sealed resources with
 their recorded digests. It does not authenticate CMS signatures, validate a
 certificate chain, recompute executable code pages or determine OS-granted

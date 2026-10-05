@@ -170,7 +170,7 @@ ClaimValue image_json(const ImageResult &report) {
 ClaimValue JsonEmitter::render(const std::vector<InspectionResult> &results) {
   ClaimValue output = {
       {"schema_version", 1},
-      {"tool", {{"name", "MachOInspect"}, {"version", "1.0.0"}}},
+      {"tool", {{"name", "MachOInspect"}, {"version", "1.0.1"}}},
       {"summary",
        {{"inputs", results.size()},
         {"failed_inputs", 0},
